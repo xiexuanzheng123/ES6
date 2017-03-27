@@ -1,7 +1,7 @@
 var webpack = require('webpack');
 
 module.exports = {
-    entry:'./js/2--letAndConst/let/blockScope.js',
+    entry:'./js/4-string/template-string.js',
     output: {
         path:__dirname,
         filename:'bundle.js'
