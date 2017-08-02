@@ -6,7 +6,8 @@
   "scripts": {
     "build": "babel src-d lib",
     "script-name": "babel-node script.js",
-    "lint": "eslint my-files.js"
+    "lint": "eslint my-files.js",
+    "start": "webpack-dev-server"
   },
   "repository": {
     "type": "git",

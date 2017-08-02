@@ -1,7 +1,7 @@
 var webpack = require('webpack');
 
 module.exports = {
-    entry:'./js/4-string/template-string.js',
+    entry:'./js/8-functions/destructuring.js',
     output: {
         path:__dirname,
         filename:'bundle.js'
