@@ -4,4 +4,4 @@
 function foo({x, y=5}) {  
     console.log(x, y);
 }
-foo({x:1})
+foo({x:1});//(1, 5)
