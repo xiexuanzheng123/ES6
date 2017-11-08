@@ -59,6 +59,6 @@ fproxy.foo;
  * 9 getPrototypeOf
  * 10 isExtensible
  * 11 setPrototypeOg
- * 12 apply
+ * 12 apply(target, object, args)
  * 13 construct拦截构造函数 new 
  */
