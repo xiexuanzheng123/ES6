@@ -10,7 +10,8 @@ module.exports = {
         //     'webpack-hot-middleware/client?reload=true'
         // ],
         index: [
-            './js/8-functions/length.js'
+            'babel-polyfill',
+            './js/proxy/index.js'
         ]
     },
     output: {
