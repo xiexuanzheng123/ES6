@@ -35,11 +35,10 @@ let handler1 = {
         return prop in target;
     }
 };
-let oproxy1 = new Proxy(stu1, handler1);
+var oproxy1 = new Proxy(stu1, handler1);
 let oproxy2 = new Proxy(stu2, handler1);
 
 for (let a in oproxy1) {
-    debugger;
     console.log(oproxy1[a]);
 }
 for (let b in oproxy2) {
