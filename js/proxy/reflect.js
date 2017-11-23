@@ -67,3 +67,4 @@ var wrapper = {
 };
 console.log(obj.foo);
 console.log(Reflect.get(obj, 'foo', wrapper));
+
