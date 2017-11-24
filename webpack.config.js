@@ -11,7 +11,7 @@ module.exports = {
         // ],
         index: [
             'babel-polyfill',
-            './js/proxy/reflect.js'
+            './js/decorator/decorator.js'
         ]
     },
     output: {
