@@ -42,5 +42,20 @@ let inst = new MyClass();
 /**
  * static 
  * 类相当于实例的原型，所有在类中定义的方法，都会被实例继承，
- * 如果加上static关键字，就表示该方法不会被实例继承，而是直接通过类来 
+ * 如果加上static关键字，就表示该方法不会被实例继承，而是直接通过类来调用，这就称为’静态方法‘ 
  */
+class Foo {
+    static classMethod() {//静态方法
+        return 'hello';
+    }
+}
+console.log(Foo.classMethod());//通过类来调用
+var foo = new Foo();
+//foo.classMethod();isnot a function
+
+class Bar extends Foo {
+    static classMethod() {
+        return super.classMethod() + ', too';
+    }
+}
+console.log(Bar.classMethod());//不可以被实例继承，但是可以被子类继承
