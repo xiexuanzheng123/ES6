@@ -1,4 +1,3 @@
-import { Object } from "core-js/library/web/timers";
 
 function Point(x, y) {
     this.x = x;
@@ -18,9 +17,13 @@ class Point1 {
     toString() {
         return '(' + this.x + ', ' + this.y + ')';
     }
+    static test() {
+        return 'hello';
+    }
 }
 var p1 = new Point1(3, 4);
 console.log(p1.toString());
+console.log('***', Point1.test());
 //typeof Point --> function
 //Point === Point.prototype.constructor
 //类的所有方法都定义在类的prototype属性上面，所以类内部定义的方法都是不可枚举的
