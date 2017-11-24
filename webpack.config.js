@@ -11,7 +11,7 @@ module.exports = {
         // ],
         index: [
             'babel-polyfill',
-            './js/decorator/decorator.js'
+            './js/codingstyle/index.js'
         ]
     },
     output: {

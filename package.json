@@ -33,6 +33,7 @@
     "babel-preset-stage-2": "^6.22.0",
     "babel-register": "^6.22.0",
     "babelify": "^7.3.0",
+    "core-decorators": "^0.20.0",
     "eslint": "^3.14.1",
     "extract-text-webpack-plugin": "^3.0.2",
     "html-webpack-plugin": "^2.30.1",
